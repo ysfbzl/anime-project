@@ -1,0 +1,71 @@
+.about-page {
+  padding: 50px 20px;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #121a2a, #0b0f1a);
+  color: #eaeaea;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.about-page h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00c2ff;
+  letter-spacing: 1px;
+}
+
+/* Intro text */
+.about-page p {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  text-align: center;
+  color: #b8c0cc;
+  line-height: 1.7;
+}
+
+/* Sections layout */
+.about-page h2 {
+  margin-top: 40px;
+  font-size: 22px;
+  color: #ffffff;
+  border-left: 4px solid #00c2ff;
+  padding-left: 10px;
+}
+
+/* Lists become cards */
+.about-page ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+/* Each item becomes a card */
+.about-page ul li {
+  background: #161b2e;
+  padding: 15px;
+  border-radius: 12px;
+  color: #d0d7e2;
+  transition: 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 1px solid transparent;
+}
+
+/* Hover effect */
+.about-page ul li:hover {
+  transform: translateY(-5px);
+  border-color: #00c2ff;
+  box-shadow: 0 8px 20px rgba(0, 194, 255, 0.2);
+}
+
+/* Footer note */
+.footer-note {
+  margin-top: 50px;
+  text-align: center;
+  font-style: italic;
+  color: #6b7280;
+}

@@ -1,0 +1,106 @@
+nav {
+  background-color: #161B2E;
+  padding: 15px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 2px solid #8A2BE2;
+}
+
+nav h2 {
+  color: #00C2FF;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li {
+  cursor: pointer;
+  color: #F5F5F5;
+  transition: 0.3s;
+}
+
+nav ul li:hover {
+  color: #FF4FD8;
+}
+nav h2 span {
+  color: #8A2BE2;
+}
+nav a {
+  color: rgb(210, 97, 233);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FF4FD8;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #07071a;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+  background: linear-gradient(45deg, #ff4ecb, #7b5cff);
+ 
+  color: transparent;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: #aaa;
+}
+
+.nav-links .active {
+  color: white;
+  border-bottom: 2px solid #ff4ecb;
+  padding-bottom: 4px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-input {
+  background: #111133;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: white;
+  outline: none;
+}
+
+.signin-btn {
+  background: linear-gradient(45deg, #ff4ecb, #7b5cff);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+.active {
+  color: #00C2FF;
+  font-weight: bold;
+  border-bottom: 2px solid #00C2FF;
+  padding-bottom: 4px;
+}

@@ -1,0 +1,82 @@
+.hero {
+  height: 90vh;
+  background: url("image.jpeg") no-repeat center/cover;
+  display: flex;
+  align-items: center;
+}
+
+/* DARK OVERLAY */
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(10, 10, 30, 0.95) 40%,
+    rgba(10, 10, 30, 0.6) 60%,
+    rgba(10, 10, 30, 0.2) 80%,
+    transparent
+  );
+  display: flex;
+  align-items: center;
+}
+
+/* CONTENT */
+.hero-content {
+  padding-left: 60px;
+  max-width: 550px;
+  color: white;
+}
+
+/* TITLE */
+.hero h1 {
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+/* GRADIENT TEXT */
+.hero span {
+  background: linear-gradient(45deg, #ff4ecb, #7b5cff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* DESCRIPTION */
+.hero p {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #d1d1e0;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+/* EXPLORE BUTTON */
+.explore {
+  background: linear-gradient(45deg, #ff4ecb, #7b5cff);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.explore:hover {
+  transform: scale(1.05);
+}
+
+/* WATCH BUTTON */
+.watch {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 12px 20px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+}

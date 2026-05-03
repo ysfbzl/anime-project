@@ -1,0 +1,48 @@
+/* AnimeEpisodes.css */
+
+.episodes-page {
+  min-height: 100vh;
+  background: #0b0f1a;
+  padding: 30px;
+  color: white;
+}
+
+.episodes-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-left: 4px solid #ff3b81;
+  padding-left: 10px;
+}
+
+.episodes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.episode-card {
+  background: #141a2a;
+  padding: 15px;
+  border-radius: 12px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.episode-card:hover {
+  transform: translateY(-5px);
+  border: 1px solid #ff3b81;
+  box-shadow: 0 5px 15px rgba(255, 59, 129, 0.2);
+}
+
+.episode-number {
+  font-weight: bold;
+  color: #ff3b81;
+  margin-bottom: 5px;
+}
+
+.episode-title {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.4;
+}

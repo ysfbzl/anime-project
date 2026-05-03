@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0B0F1A;
+  color: #F5F5F5;
+  font-family: Arial, sans-serif;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+} 
+.button{
+  font-size: 20px;
+  border: #0B0F1A  none solid;
+  color: rgb(250, 247, 253);
+  background-color: rgb(184, 57, 196);
+  margin-left: 10px ;
+
+}
