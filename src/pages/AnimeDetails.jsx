@@ -59,7 +59,7 @@ useEffect(() => {
             {anime.synopsis}
           </p>
 
-          <button onClick={() => navigate(`/anime/${id}/episodes`)}>
+          <button className="view" onClick={() => navigate(`/anime/${id}/episodes`)}>
          View Episodes
        </button>
 
